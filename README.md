@@ -9,7 +9,6 @@ This website is made by students of [Tagore International School , Vasant Vihar 
 **Rohit Chowdhary**:
 
  - [Github](https://github.com/avacadox21)
- - [Instagram](www.instagram.com/roh_it_chow/)
  - [Email](https://cutt.ly/DvYXEvC)
 
  
