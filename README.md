@@ -1,4 +1,4 @@
-# TIS: E-STATS WEBSITE
+# TIS: DroNerdS Website
 ## Intro
 This website is made by students of [Tagore International School , Vasant Vihar New Delhi](https://tagoreint.com/vv/V2.0/)  named:
 
