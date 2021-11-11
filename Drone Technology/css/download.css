@@ -1,0 +1,117 @@
+* {
+    font-family: 'Prompt', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+} 
+ :root{
+   
+   --DarkBlue: #1b1734; 
+   --Indigo: #420364; 
+   --Violet: #5C038C; 
+   --Purple: #9865Bc; 
+   --White: #fff;  
+   --Neon: #B026FF; 
+
+
+
+   
+}
+
+
+body {
+    background-color: rgb(247, 222, 201);
+    overflow-y: hidden;
+}
+
+
+
+header{
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    transition: 0.5s ease;
+    position: fixed;
+  }
+  .BgColour {
+    
+    transition: all 0.4s;
+    background-color: black;
+    -webkit-box-shadow: 0px 21px 22px 10px rgb(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 21px 22px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 21px 22px 10px rgba(0, 0, 0, 0.5);
+}
+  
+  header .brand{
+    background: -webkit-linear-gradient(27.97deg,  var(--Neon), var(--White));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: '';
+    font-size: 3em;
+    font-weight: 700;
+    text-decoration: none;
+    
+  }
+  
+  header .navigation{
+    position: relative;
+  }
+  
+  header .navigation .navigation-items a{
+    position: relative;
+    color: var(--White);
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+  }
+  
+  header .navigation .navigation-items a:before{
+    content: '';
+    position: absolute;
+    background:var(--Neon);
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+  }
+  
+  header .navigation .navigation-items a:hover:before{
+    width: 100%;
+  }
+
+.bottom {
+    position: relative;
+    bottom: 0px;
+    top: 100px;
+}
+
+.gg {
+    text-align: center;
+    backdrop-filter: blur(13px) saturate(200%);
+    -webkit-backdrop-filter: blur(13px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.26);
+    border-radius: 12px;
+    padding-top: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    z-index: 10;
+    position: relative;
+    bottom: 400px;
+    height: 250px;
+    font-size: 20px;
+    padding: 30px;
+    width: 700px;
+    left: 400px;
+    box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+ 
+}

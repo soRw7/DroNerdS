@@ -1,0 +1,332 @@
+* {
+    font-family: 'Prompt', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+} 
+ :root{
+   
+   --DarkBlue: #1b1734; 
+   --Indigo: #420364; 
+   --Violet: #5C038C; 
+   --Purple: #9865Bc; 
+   --White: #fff;  
+   --Neon: #B026FF; 
+
+
+}
+
+
+
+header{
+    z-index: 999;
+    position: absolute;
+    background: rgb(0,0,47);
+    -webkit-box-shadow: 0px 21px 22px 10px rgb(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 21px 22px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 21px 22px 10px rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 100px;
+    transition: 0.5s ease;
+    position: fixed;
+  }
+  
+  header .brand{
+    background: -webkit-linear-gradient(27.97deg,  var(--Neon), var(--White));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: '';
+    font-size: 3em;
+    font-weight: 700;
+    text-decoration: none;
+    
+  }
+  
+  header .navigation{
+    position: relative;
+  }
+  
+  header .navigation .navigation-items a{
+    position: relative;
+    color: var(--White);
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+  }
+  
+  header .navigation .navigation-items a:before{
+    content: '';
+    position: absolute;
+    background:var(--Neon);
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+  }
+  
+  header .navigation .navigation-items a:hover:before{
+    width: 100%;
+  }
+
+  section{
+    padding: 100px 200px;
+  }
+
+
+  .home{
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--DarkBlue);
+    background: linear-gradient(180deg, rgba(27,23,52,1) 0%, rgba(0,0,0,1) 100%);
+  }
+  
+
+  .home .content{
+    z-index: 888;
+    color : var(--White);
+    width: 70%;
+    margin-top: 50px;
+    display: none;
+  }
+  
+  .home .content.active{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+    background: transparent;
+
+  }
+  
+  .home .content h1{
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 5px;
+  }
+  
+  .home .content h1 span{
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+  
+  .home .content p{
+    margin-bottom: 35px;
+    font-size: 1.8em;
+    font-weight: 300;
+  }
+  
+ 
+
+  .home .content a {
+    background: linear-gradient(180deg, rgba(92,3,140,1) 0%, rgba(27,23,52,1) 100%);;
+    padding: 15px 35px;
+    color: var(--White);
+    font-size: 1.4em;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: ease-in 0.5s;
+  }
+  .home .content a:hover{
+    background: rgb(103,66,121);
+    background: linear-gradient(180deg, rgba(103,66,121,1) 0%, rgba(255,255,255,1) 100%);
+    color:var(--DarkBlue)
+  }
+
+  .about {
+      background-color: black;
+      color: rgb(223, 223, 223);
+      
+  }
+
+  .bgimg-1 {
+    background-image: url("../media/pexels-karolina-grabowska-4207908.jpg");
+    min-height: 350px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgimg-2 {
+    background-image: url("../media/pexels-frans-van-heerden-631292.jpg");
+    min-height: 350px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgimg-3 {
+    background-image: url("../media/pexels-tiger-lily-4481259.jpg");
+    min-height: 350px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgimg-4 {
+    background-image: url("../media/pexels-parij-photography-1667240.jpg");
+    min-height: 350px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgimg-5 {
+    background-image: url("../media/pexels-elevate-1267325.jpg");
+    min-height: 350px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgimg-6 {
+    background-image: url("../media/pexels-joseph-redfield-1870438.jpg");
+    min-height: 350px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .about h2 {
+      text-align: center;
+      padding-bottom: 10px;
+      font-size: 2em;
+  }
+  
+  .about hr {
+      margin-top: 30px;
+  }
+
+  .about p {
+      font-size: 1.2em;
+      color:rgb(255, 255, 255)
+  }
+
+
+
+  .footer .brand {
+    background: -webkit-linear-gradient(27.97deg,  var(--Neon), var(--White));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: '';
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 30px;
+    
+  }
+  
+  
+  .footer .newsletterlink {
+   
+    background: -webkit-linear-gradient(  var(--White), rgb(243, 183, 255) );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: '';
+    font-weight: bold;
+    
+  }
+  
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 50px;
+    color: #fff;
+    background-color: var(--DarkBlue) ;
+    }
+    
+    .footer > * {
+    flex:  1 100%;
+    }
+    
+    .l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 20px;
+    }
+    
+    .footer span {
+    font-weight: 600;
+    font-size: 1.4em;
+    }
+    
+    .footer ul {
+    list-style: none;
+    padding-left: 0;
+    }
+    
+    .footer li {
+    line-height: 2em;
+    }
+    
+    .footer a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+    .r-footer {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+    .r-footer > * {
+    flex: 1 50%;
+    margin-right: 1em;
+    padding-left: 80px;
+    }
+    
+    .box a {
+    color: var(--White);
+    text-shadow: 2px 2px 6px #000000;
+    }
+    
+    .h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+    }
+    
+    .b-footer {
+    text-align: center;
+    color:var(--White);
+    padding-top: 20px;
+    text-shadow: 2px 2px 6px #000000;
+    }
+    
+    .l-footer p {
+    padding-right: 20%;
+    padding-left: 30px;
+    color:var(--White);
+    text-shadow: 2px 2px 6px #000000;
+    }   
+    
+    @media screen and (min-width: 600px) {
+    .r-footer > * {
+    flex: 1;
+    }
+    
+    .features {
+    flex-grow: 2;
+    }
+    
+    .l-footer {
+    flex: 1 0px;
+    }
+    
+    .r-footer {
+    flex: 2 0px;
+    }
+    }
