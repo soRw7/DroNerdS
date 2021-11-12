@@ -33,11 +33,9 @@ This website focuses mainly on the Drone Technology and how it can help in futur
 - [Github](github.com) for hosting the code and website hosting
 - [Pexels](https://www.pexels.com/) for images and videos.
 - [Formspree](https://formspree.io/) for form submittion.
+- [Firebase](https://firebase.google.com/) for Email Authentication , database and cache collection. 
 
 
-## Future Plans
-
-If this website wins, we are planning to put it up on netlify or hostinger ot 000webhost.
 
 ## Conclusion
 In the end I would just like to say we gave in our best. Good Luck to everybody who participated in the competition. 
