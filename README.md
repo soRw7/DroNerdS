@@ -3,13 +3,13 @@
 This website is made by students of [Tagore International School , Vasant Vihar New Delhi](https://tagoreint.com/vv/V2.0/)  named:
 
 **Soham Panda**
- - [Email](https://cutt.ly/evOXlfa)
- - [Github](https://cutt.ly/rTkn4VU)
+ - [Email](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=sohampanda79@gmail.com)
+ - [Github](https://github.com/SohamPanda345)
 
 **Rohit Chowdhary**:
 
  - [Github](https://github.com/avacadox21)
- - [Email](https://cutt.ly/zTkme1T)
+ - [Email](https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=rohitchowdhary2173@gmail.com)
 
  
  
