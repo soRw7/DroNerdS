@@ -4,12 +4,12 @@ This website is made by students of [Tagore International School , Vasant Vihar 
 
 **Soham Panda**
  - [Email](https://cutt.ly/evOXlfa)
- - [Github](https://github.com/SohamPanda345)
+ - [Github](https://cutt.ly/rTkn4VU)
 
 **Rohit Chowdhary**:
 
  - [Github](https://github.com/avacadox21)
- - [Email](https://cutt.ly/DvYXEvC)
+ - [Email](https://cutt.ly/zTkme1T)
 
  
  
