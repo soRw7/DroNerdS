@@ -40,4 +40,4 @@ This website focuses mainly on the Drone Technology and how it can help in futur
 ## Conclusion
 In the end I would just like to say we gave in our best. Good Luck to everybody who participated in the competition. 
 Thank You!
-Here is the link to the website : [Link]([https://sorw7.github.io/DroNerdS/Drone%20Technology/dronetech.html])
+Here is the link to the website : [Link](https://sorw7.github.io/DroNerdS/Drone%20Technology/dronetech.html)
